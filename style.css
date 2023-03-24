@@ -16,7 +16,7 @@ body{
     text-align: center;
 
 }
-.form input[type="text"]{
+.form input[type="submit"]{
     border: 0;
     background: none;
     display: block;
