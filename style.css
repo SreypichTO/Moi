@@ -1,9 +1,9 @@
 
 body{
     margin: 0;
-    background: pink;
+    background: url(nabi.jpg);
     text-align: center;
-    
+    background-size: cover;
 }
 .form{
     width: 300px;
@@ -14,7 +14,13 @@ body{
     transform: translate(-50%,-50%);
     background: rgb(57, 56, 56);
     text-align: center;
+    border-radius: 10px;
 
+}
+.form h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .form input[type="submit"]{
     border: 0;
@@ -29,10 +35,5 @@ body{
     color: white;
     border-radius: 24px;
     transition: 0.25px;
-
-}
-.form input[type="text"]:focus{
- width: 270px;
- border-color: blueviolet;
-
+    cursor: pointer;
 }
