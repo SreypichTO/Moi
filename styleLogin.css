@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fbackground%2F&psig=AOvVaw3N5jSZ1NqPsd_DOAT0Rknr&ust=1679717647046000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIDE_P7Z8_0CFQAAAAAdAAAAABAJ);
-    background-size: cover;
+    background: url(nabi.jpg);
+        background-size: cover;
 }
 
 .box{
@@ -13,12 +13,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(0,0,0,0,4);
+    background: rgb(57, 56, 56);
     text-align: center;
 
 }
 .box h1{
-    color: aliceblue;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -32,7 +32,7 @@ body{
     padding: 14px 10px;
     width: 220px;
     outline: none;
-    color: aliceblue;
+    color: white;
     border-radius: 24px;
     transition: 0.25px;
 
@@ -52,7 +52,7 @@ body{
     padding: 14px 10px;
     width: 220px;
     outline: none;
-    color: aliceblue;
+    color: white;
     border-radius: 24px;
     transition: 0.25px;
     cursor: pointer;
